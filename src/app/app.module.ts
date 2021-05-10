@@ -13,6 +13,11 @@ import { Card6Component } from './card6/card6.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { ContactComponent } from './contact/contact.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { FooterComponent } from './footer/footer.component';
     Card6Component,
     ProductsComponent,
     ProductDetailsComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    RegisterComponent,
+    LoginComponent,
+    ContactComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
