@@ -1,0 +1,15 @@
+<div class="card bg-light h-100 text-light">
+    <img src="{{comp.image}}" class="card-img-top w-100" alt="">
+    <div class="card-body">
+        <p class="d-inline fs-3 text-dark">{{comp.name}}</p>
+        <div class="d-flex justify-content-between mt-3">
+            <h3 class=" text-danger">
+                Price : {{comp.price}}
+            </h3>
+            <div class="btn-group">
+                <button class="btn btn-sm border-dark  float-end btn-success fs-3" (click)="send(comp.name)" ><i class="fas fa-cart-plus"></i> Add to cart</button>
+            </div>
+           
+        </div>
+    </div>
+</div>
