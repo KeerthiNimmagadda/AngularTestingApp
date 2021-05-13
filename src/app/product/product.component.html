@@ -1,57 +1,16 @@
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 m-4">
-        <div class="col">
-            <div class="card shadow m-5">
-                <img src="https://www.codechef.com/download/1-HP-LC-Recruiter.png" alt="">
-                <div class="card-body fs-2 bg-light">
-                    <p>CodeChef Long Challenge is a 10-day monthly coding contest where you can show off your computer programming skills. </p>
-                </div>
-                <button class="btn btn-success fs-3">Register</button>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card shadow m-5">
-            <img src="https://www.codechef.com/download/LearnCP-Default-HP.png" class="w-100" alt="">
-            <div class="card-body fs-2 bg-light">
-               <p>Learn Competitive Programming with Codechef.Designed and delivered by ICPC finalists and 7 star programmers.Taught by unacademy.</p> 
-            </div>
-            <button class="btn btn-success fs-3">Register</button>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card shadow m-5">
-            <img src="https://www.codechef.com/download/YT-Playlist-2-HP.png" alt="">
-            <div class="card-body fs-2 bg-light">
-                <p>We will learn various types of sorting techniques and their implementation. It focuses on the usage of sorting algorithm in problem scenarios.</p>
-            </div>
-            <button class="btn btn-success fs-3">Register</button>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card shadow m-5">
-            <img src="https://www.codechef.com/download/1-HP-LC-Recruiter.png" alt="">
-            <div class="card-body fs-2 bg-light">
-                <p>CodeChef Long Challenge is a 10-day monthly coding contest where you can show off your computer programming skills. </p>
-            </div>
-            <button class="btn btn-success fs-3">Register</button>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card shadow m-5">
-        <img src="https://www.codechef.com/download/LearnCP-Default-HP.png" class="w-100" alt="">
-        <div class="card-body fs-2 bg-light">
-           <p>Learn Competitive Programming with Codechef.Designed and delivered by ICPC finalists and 7 star programmers.Taught by unacademy.</p> 
-        </div>
-        <button class="btn btn-success fs-3">Register</button>
-    </div>
-</div>
-<div class="col">
-    <div class="card shadow m-5">
-        <img src="https://www.codechef.com/download/YT-Playlist-2-HP.png" alt="">
-        <div class="card-body fs-2 bg-light">
-            <p>We will learn various types of sorting techniques and their implementation. It focuses on the usage of sorting algorithm in problem scenarios.</p>
-        </div>
-        <button class="btn btn-success fs-3">Register</button>
-    </div>
-</div>
-    </div>
+    <ul class="nav nav-pills justify-content-evenly m-5">
+        <li class="nav-item">
+          <a class="nav-link"  routerLink="mobiles"  routerLinkActive="active">Mobiles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="bikes"  routerLinkActive="active">Bikes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="televisions"  routerLinkActive="active">Televisions</a>
+        </li>
+        
+      </ul>
+      <div class="container">
+          <router-outlet></router-outlet>
+      </div>

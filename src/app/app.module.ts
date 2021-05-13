@@ -18,6 +18,10 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductComponent } from './product/product.component';
+import { MobilesComponent } from './mobiles/mobiles.component';
+import { BikesComponent } from './bikes/bikes.component';
+import { TelevisionsComponent } from './televisions/televisions.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,11 @@ import { ProductComponent } from './product/product.component';
     RegisterComponent,
     LoginComponent,
     ContactComponent,
-    ProductComponent
+    ProductComponent,
+    MobilesComponent,
+    BikesComponent,
+    TelevisionsComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
