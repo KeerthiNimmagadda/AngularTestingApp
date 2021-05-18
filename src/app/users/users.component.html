@@ -1,0 +1,16 @@
+<div class="container">
+        <table class="table table-center m-3 text-center bg-dark text-white table-bordered " style="border-color: rgb(12, 248, 248);">
+            <thead>
+                <tr class="h4 text-danger">
+                <th>ID</th>
+                <th>EMAIL</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let i of list">
+                    <td><button class="btn btn-sm btn-success" (click)="onSelectId(i.id)">{{i.id}}</button></td>
+                    <td>{{i.email}}</td>
+                </tr>
+            </tbody>
+        </table>
+</div>

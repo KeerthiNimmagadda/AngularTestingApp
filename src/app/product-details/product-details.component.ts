@@ -1,6 +1,6 @@
 import { Component,EventEmitter,Input, OnInit, Output } from '@angular/core';
 
-import {product} from '../model/products.model';
+import {product} from '../model/product.model';
 
 @Component({
   selector: 'app-product-details',
@@ -8,7 +8,7 @@ import {product} from '../model/products.model';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent  {
-@Input() comp:product;
+@Input() prod:product;
 @Output() e=new EventEmitter();
 send(i){
   this.e.emit(i);

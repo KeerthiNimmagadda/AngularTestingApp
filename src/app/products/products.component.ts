@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {product} from '../model/products.model'
+import {products} from '../model/products.model'
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
@@ -7,7 +7,7 @@ import {product} from '../model/products.model'
 })
 export class ProductsComponent {
   
-  list:product[]=[
+  list:products[]=[
     {
       name:"Dell G3 15 Gaming Laptop 10th Generation Intel® Core™ i7-10750H",
     image:"https://i.dell.com/sites/csimages/Banner_Imagery/all/Dell-G3-3500.png" ,

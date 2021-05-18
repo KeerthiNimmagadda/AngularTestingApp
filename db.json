@@ -1,0 +1,184 @@
+{
+    "details":[
+        {
+          "id": 1,
+          "name": "Leanne Graham",
+          "email": "Sincere@april.biz",
+          "profilepic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqlL_waI-rcUnYjW_fXHJbyMU6EIMpHVmGMA&usqp=CAU",
+          "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+          },
+          "phone": "1-770-736-8031 x56442",
+          "profession":"lawyer"
+        },
+        {
+          "id": 2,
+          "name": "Ervin Howell",
+          "email": "Shanna@melissa.tv",
+          "profilepic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMOw0grvsvuP5AK9n6DeXlsX7FBaZ7hjomsQ&usqp=CAU",
+          "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+              "lat": "-43.9509",
+              "lng": "-34.4618"
+            }
+          },
+          "phone": "010-692-6593 x09125",
+          "profession":"teacher"
+        },
+        {
+          "id": 3,
+          "name": "Clementine Bauch",
+          "email": "Nathan@yesenia.net",
+          "profilepic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp4Evzth2DWqba6zEKCRchqJH1eZCps25_Tg&usqp=CAU",
+          "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+              "lat": "-68.6102",
+              "lng": "-47.0653"
+            }
+          },
+          "phone": "1-463-123-4447",
+          "profession":"doctor"
+        },
+        {
+          "id": 4,
+          "name": "Patricia Lebsack",
+          "email": "Julianne.OConner@kory.org",
+          "profilepic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8HXUx2sX6lRtb1BugS_5pZbhTEcCiV05Bg&usqp=CAU",
+          "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+              "lat": "29.4572",
+              "lng": "-164.2990"
+            }
+          },
+          "phone": "493-170-9623 x156",
+          "profession":"police"
+        },
+        {
+          "id": 5,
+          "name": "Chelsey Dietrich",
+          "email": "Lucio_Hettinger@annie.ca",
+          "profilepic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5I8YtCXh1k0u9yxDQRddyV7ffC3O1LrxFQ&usqp=CAU",
+          "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+              "lat": "-31.8129",
+              "lng": "62.5342"
+            }
+          },
+          "phone": "(254)954-1289",
+          "profession":"painter"
+        },
+        {
+          "id": 6,
+          "name": "Mrs. Dennis Schulist",
+          "email": "Karley_Dach@jasper.info",
+          "profilepic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzyzyWNgMgkq7xL6V-iTK3tEQXaV3bdcCecg&usqp=CAU",
+          "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+              "lat": "-71.4197",
+              "lng": "71.7478"
+            }
+          },
+          "phone": "1-477-935-8478 x6430",
+          "profession":"artist"
+        },
+        {
+          "id": 7,
+          "name": "Kurtis Weissnat",
+          "email": "Telly.Hoeger@billy.biz",
+          "profilepic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0iAG6nMWjU_CQwPmQjkEnXS52wK8Fm87fYQ&usqp=CAU",
+          "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+              "lat": "24.8918",
+              "lng": "21.8984"
+            }
+          },
+          "phone": "210.067.6132",
+          "profession":"lecturer"
+        },
+        {
+          "id": 8,
+          "name": "Nicholas Runolfsdottir V",
+          "email": "Sherwood@rosamond.me",
+          "profilepic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLFYuhP4bLgLYJnNEGrYqLpdbtQWyRevCC8A&usqp=CAU",
+          "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+              "lat": "-14.3990",
+              "lng": "-120.7677"
+            }
+          },
+          "phone": "586.493.6943 x140",
+          "profession":"dancer"
+        },
+        {
+          "id": 9,
+          "name": "Glenna Reichert",
+          "email": "Chaim_McDermott@dana.io",
+          "profilepic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiKJpdNjTpGB56zxAsKiuxFH51GpAkOs999g&usqp=CAU",
+          "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+              "lat": "24.6463",
+              "lng": "-168.8889"
+            }
+          },
+          "phone": "(775)976-6794 x41206",
+          "profession":"singer"
+        },
+        {
+          "id": 10,
+          "name": "Clementina DuBuque",
+          "email": "Rey.Padberg@karina.biz",
+          "profilepic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0x_5CS6IVs2sn-m6xO3ipQ0UPQp3kxLftg&usqp=CAU",
+          "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+              "lat": "-38.2386",
+              "lng": "57.2232"
+            }
+          },
+          "phone": "024-648-3804",
+          "profession":"actor"
+        }
+      ]
+}

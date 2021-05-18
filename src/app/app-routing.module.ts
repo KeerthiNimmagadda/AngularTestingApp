@@ -9,11 +9,17 @@ import { ProductComponent } from './product/product.component';
 import { RegisterComponent } from './register/register.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
 import {PagenotfoundComponent} from './pagenotfound/pagenotfound.component';
+import { RestapiComponent } from './restapi/restapi.component';
+import { UsersComponent } from './users/users.component';
+import { UserdetailsComponent } from './userdetails/userdetails.component';
 const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'register',component:RegisterComponent},
   {path:'login',component:LoginComponent},
   {path:'contact',component:ContactComponent},
+  {path:'restapi',component:RestapiComponent},
+  {path:'users',component:UsersComponent},
+  {path:'users/:id',component:UserdetailsComponent},
   {path:'product',component:ProductComponent,children:[
     {path:'mobiles',component:MobilesComponent},
     {path:'bikes',component:BikesComponent},
